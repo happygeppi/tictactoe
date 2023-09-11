@@ -5,9 +5,7 @@ const $ = (id) => document.getElementById(id);
 const $$ = (q) => document.querySelector(q);
 const $$$ = (q) => document.querySelectorAll(q);
 
-const html = {
-  board: $("board"),
-};
+const html = { board: $("board") };
 
 let turn = 1;
 const players = ["", "X", "O"];
