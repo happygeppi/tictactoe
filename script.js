@@ -25,7 +25,6 @@ function Init() {
 function GetDim() {
   let val = window.location.href.split("?");
   if (val.length === 1) return DIM = 2;
-  
   DIM = parseInt(val[1]);
 }
 
