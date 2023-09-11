@@ -25,8 +25,7 @@ function Init() {
 function GetDim() {
   let val = window.location.href.split("?");
   if (val.length === 1) return DIM = 2;
-  val = val[1].split("=")[1];
-  DIM = parseInt(val);
+  DIM = parseInt(val[1]);
 }
 
 function CreateBoardData() {
